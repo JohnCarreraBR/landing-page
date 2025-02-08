@@ -1,0 +1,1 @@
+This is an Odin Project exercise to mimmick an image of a landing page
