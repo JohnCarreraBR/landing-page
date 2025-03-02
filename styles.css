@@ -1,0 +1,150 @@
+* {
+    font-family: roboto, monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 64px;
+}
+
+.header-right {
+    display: flex;
+    gap: 24px;
+}
+
+.header-left {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.greeting {
+    display: flex;
+    padding: 30px 64px 80px;
+    gap: 8px;
+}
+
+.greet-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 8px;
+}
+
+.greet-right {
+    background-color: gray;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+    border: none;
+    border-radius: 8px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    align-items: center;
+    padding: 18px 18px 64px;
+}
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    gap: 24px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.square {
+    border: 3px solid blue;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.name {
+    font-weight: bolder;
+    color: black;
+    align-self: flex-end;
+}
+
+.call {
+    display: flex;
+    padding: 64px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    padding: 64px;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+h1,h3,p {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.black {
+    color: black;
+    flex-wrap: wrap;
+}
